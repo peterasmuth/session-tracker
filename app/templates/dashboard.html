@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <div class="container">
+        <div class="row">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col"><h1><center>Total Profit</center></h1></th>
+                        <th scope="col"><h1><center>Total Hours</center></h1></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h1><center>{{ profit }}</center></h1></td>
+                        <td><h1><center>{{ hours }}</center></h1></td>
+                    </tr>
+                </tbody>
+        </div>
+    </div>
+{% endblock %}

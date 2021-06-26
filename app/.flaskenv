@@ -1,0 +1,2 @@
+FLASK_APP=sessiontracker.py
+FLASK_DEBUG=1
